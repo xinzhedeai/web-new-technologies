@@ -1,0 +1,26 @@
+{
+  "name": "sea-require",
+  "version": "1.0.0",
+  "description": "模块化开发",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinzhedeai/web-new-technologies.git"
+  },
+  "keywords": [
+    "大前端"
+  ],
+  "author": "大宝",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinzhedeai/web-new-technologies/issues"
+  },
+  "homepage": "https://github.com/xinzhedeai/web-new-technologies#readme",
+  "dependencies": {
+    "require.js": "^1.0.0",
+    "sea.js": "^2.3.0"
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./node_modules/require.js/sea.js"></script>
+</head>
+<body>
+  <div id="box"></div>
+</body>
+</html>
+<script>
+  /**
+   * @param1 路径
+   * @param2 回调 (在js文件里定义的module.exports 所定义的会传入到回调里的参数)
+   * 
+   **/
+  seajs.use('./js/mokuai.js', function (dom) {
+    
+  });
+</script>
